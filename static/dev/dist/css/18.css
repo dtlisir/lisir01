@@ -1,0 +1,84 @@
+
+.table .el-pagination {
+  float: right;
+  margin: 20px;
+}
+.table .el-table__header-wrapper thead tr th, .table .el-table__fixed-header-wrapper thead tr th {
+  color: #333333;
+}
+.table .el-table-column--selection .cell {
+  padding: 0;
+  text-align: center;
+}
+.table .el-table__fixed-right {
+  bottom: 0 !important;
+  right: 6px !important;
+  z-index: 1004;
+}
+.table .operate-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.table .operate-group .item {
+    display: block;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 23%;
+            flex: 0 0 23%;
+}
+.table .filter-data {
+  top: e("calc((100% - 100px) / 3)");
+  background-color: rgba(0, 0, 0, .7);
+}
+.table .table-action {
+  top: e("calc((100% - 100px) / 2)");
+  background-color: rgba(0, 0, 0, .7);
+}
+.table .fix-right {
+  position: absolute;
+  right: 0;
+  height: 100px;
+  color: #ffffff;
+  width: 30px;
+  display: block;
+  z-index: 1005;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-align: center;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  cursor: pointer;
+}
+.table .btn-size-mini {
+  height: 24px;
+  line-height: 22px;
+  padding: 0 11px;
+  font-size: 12px;
+}
+
+
+.no-data-wrapper[data-v-50f21d4e] {
+  display: table;
+  width: 100%;
+  height: 100%;
+  color: #999999;
+  background: #ffffff;
+}
+.no-data[data-v-50f21d4e] {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.common-icon-no-data[data-v-50f21d4e] {
+  font-size: 40px;
+}
+.no-data-wording[data-v-50f21d4e] {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+/*# sourceMappingURL=18.css.map*/
